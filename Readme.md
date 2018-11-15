@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [FilterWindow.xaml](./CS/FilterWindow.xaml) (VB: [FilterWindow.xaml.vb](./VB/FilterWindow.xaml.vb))
+* [FilterWindow.xaml.cs](./CS/FilterWindow.xaml.cs) (VB: [FilterWindow.xaml.vb](./VB/FilterWindow.xaml.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [ViewModel.cs](./CS/ViewModel.cs) (VB: [ViewModel.vb](./VB/ViewModel.vb))
+<!-- default file list end -->
 # GridControl - How to customize the Filter Editor dialog
 
 
