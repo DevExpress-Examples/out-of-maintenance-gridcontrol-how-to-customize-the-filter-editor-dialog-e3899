@@ -13,7 +13,7 @@
         <TextBlock Text="DxGrid" FontSize="20" FontWeight="ExtraBold"/>
         <dxg:GridControl x:Name="grid" AutoGenerateColumns="AddNew" ItemsSource="{Binding Records}" FilterCriteria="{Binding FilterCriteria, Mode=OneWayToSource}" Grid.Row="1">
             <dxg:GridControl.View>
-                <dxg:TableView FilterEditorCreated="TableView_FilterEditorCreated" x:Name="tableView1"/>
+                <dxg:TableView FilterEditorCreated="TableView_FilterEditorCreated" x:Name="tableView1" UseLegacyFilterEditor="True"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
     </Grid>
