@@ -13,6 +13,6 @@
 <p>You can invoke the Filter Editor dialog by clicking a column header and choosing the<strong> </strong><strong>Filter Editor</strong> item. In some scenarios, it is useful to add additional buttons to this dialog, i.e. customize it.<br />
 This example illustrates how to add the additional "CustomAction" button to this dialog. For this, it is necessary to handle the <a href="http://documentation.devexpress.com/#WPF/DevExpressXpfGridDataViewBase_FilterEditorCreatedtopic"><u>DataViewBase.FilterEditorCreated event</u></a>.  Set the e.Handled property to true and show your own Filter Editor dialog in this event handler.    </p>
 
-<br/>
+**Note**: The GridControl uses the ***new*** Filter Editor starting from **v19.1**. To enable the **previous** Filter Editor, set the [DataViewBase.UseLegacyFilterEditor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.UseLegacyFilterEditor) property to **true**. 
 
-
+Refer to the [Filter Editor](https://docs.devexpress.com/WPF/7788/controls-and-libraries/data-grid/filtering-and-searching/filter-editor) article for information on how to customize the ***new*** Filter Editor.
